@@ -1,4 +1,4 @@
-import { details } from "./data/appdata";
+import { details } from "./data/appdata.js";
 
 const currentDate = new Date();
 const monthNames = [
