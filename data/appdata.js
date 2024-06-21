@@ -1,4 +1,4 @@
-const details = [
+export const details = [
     {
         month: 'November',
         date: '21',
