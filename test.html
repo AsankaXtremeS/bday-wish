@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Birthday Wish</title>
+    <style>
+      /* Add your CSS styles here */
+      .birthday-container {
+        text-align: center;
+        font-size: 24px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+      sapiente voluptatum error! Eum, cumque voluptatum asperiores, quos
+      deleniti molestias modi recusandae tempore facere reprehenderit nemo natus
+      odio ex iste optio.
+    </p>
+    <div class="birthday-container" id="birthdayContainer"></div>
+
+    <script>
+      const currentDate = new Date();
+      const year = currentDate.getFullYear();
+      const monthNames = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+      ];
+      const month = monthNames[currentDate.getMonth()]; // Get the full month name
+      const day = String(currentDate.getDate()).padStart(2, "0");
+
+      const formattedDate = `${year}-${month}-${day}`;
+      console.log(formattedDate); // Output: 2024-June-19
+    </script>
+  </body>
+</html>
+
+<div class="birthday-form">
+  <div class="date-container">
+    <div class="month js-month"></div>
+    <div class="day js-date">28</div>
+  </div>
+  <div class="image">
+    <img src="profiledp.jpg" alt="" srcset="" />
+  </div>
+  <div class="name js-name">ASANKA SAMPATH</div>
+  <br />
+  <div class="wish">
+    <p>
+      May your academic journey be as exhilarating as a well-optimized
+      algorithm. May you debug life’s challenges with the precision of a
+      seasoned coder. Here’s to compiling dreams, linking knowledge, and
+      executing success! 🌟🎂📚
+    </p>
+  </div>
+</div>

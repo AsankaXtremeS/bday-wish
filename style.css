@@ -1,0 +1,71 @@
+
+body{
+    font-family: 'Teko',Arial;
+    display: inline-block;
+}
+.birthday-form{
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(bg.jpg);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.date-container{
+    margin-top: -20px;
+    margin-bottom: 160px;
+    margin-right: -585px;
+    
+    
+}
+.image img{
+    width: 280px;
+    border-radius: 145px;
+    margin-top: -101px;
+    margin-bottom: 20px;
+    box-shadow:   0 0 20px 20px rgb(169, 0, 160);
+}
+.date-container .month{
+    background-color: lightskyblue;
+    height: 30px;
+    font-size: 40px;
+    padding: 2px 30px 28px 30px ;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.day{
+    background-color: lightgray;
+    height: 80px;
+    font-size: 60px;
+    margin-top: -7px;
+    border-radius: 5px;
+}
+.name{
+    margin-top: 20px;
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: yellow;
+}
+.wish p{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    width: 500px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(42, 41, 41, 0.5);
+    padding: 30px 0 30px 0;
+    border-radius: 15px;
+}
+.wish{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
